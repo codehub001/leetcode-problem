@@ -1,0 +1,42 @@
+#include <climits>
+#include <cstdlib>
+
+class Solution {
+public:
+    int divide(int dividend, int divisor) {
+        // Handle overflow case
+        if (dividend == INT_MIN && divisor == -1) {
+            return INT_MAX;  // Return 2^31 - 1 because INT_MIN / -1 would overflow
+        }
+
+        // Determine the sign of the result
+        int sign = (dividend < 0) == (divisor < 0) ? 1 : -1;
+
+        // Work with absolute values to simplify the logic
+        long long absDividend = std::llabs(dividend);
+        long long absDivisor = std::llabs(divisor);
+        long long quotient = 0;
+
+        // Perform division using bit manipulation
+        while (absDividend >= absDivisor) {
+            long long tempDivisor = absDivisor;
+            long long multiple = 1;
+            // Find the largest multiple such that (divisor * multiple) <= dividend
+            while (absDividend >= (tempDivisor << 1)) {
+                tempDivisor <<= 1;
+                multiple <<= 1;
+            }
+            absDividend -= tempDivisor;
+            quotient += multiple;
+        }
+
+        // Apply the sign to the result
+        quotient = sign * quotient;
+
+        // Ensure the result is within the 32-bit signed integer range
+        if (quotient > INT_MAX) return INT_MAX;
+        if (quotient < INT_MIN) return INT_MIN;
+
+        return quotient;
+    }
+};
