@@ -2,7 +2,7 @@ class Solution {
 public:
     string convert(string s, int numRows) {
         if (numRows == 1 || numRows >= s.length()) {
-            return s;
+            return s; 
         }
 
         int idx = 0, d = 1;
