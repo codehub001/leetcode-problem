@@ -5,7 +5,7 @@ class Solution {
         int i =0;
         String str = new String(); 
         while (num>0){
-            if (num>=n[i]){
+            if (num>=n[i]){  
                 str=str+s[i];
                 num-=n[i];
             } else{
