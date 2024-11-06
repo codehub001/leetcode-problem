@@ -19,5 +19,3 @@ public:
         return count;
     }
 };
-
-//start the coding life .
