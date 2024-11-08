@@ -14,10 +14,9 @@ public:
             head = head->next; // Start new matching attempt if the value matches head of list
         } else {
             cur = head; 
-        }
-              
+        }         
         return dfs(head, cur, root->left) || dfs(head, cur, root->right); // Recursively check left and right subtrees
     }
 };
 
-//Any need connect with me 
+//Any need connect wid mee
