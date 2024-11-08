@@ -13,7 +13,7 @@ public:
         } else if (head->val == root->val) {
             head = head->next; // Start new matching attempt if the value matches head of list
         } else {
-            cur = head; 
+            cur = head;  
         }         
         return dfs(head, cur, root->left) || dfs(head, cur, root->right); // Recursively check left and right subtrees
     }
