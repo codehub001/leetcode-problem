@@ -8,7 +8,7 @@ public:
             ListNode *npn = cur->next->next;
             ListNode *second = cur->next;
 
-            second->next = cur;
+            second->next = cur; 
             cur->next = npn;
             prev->next = second;
 
