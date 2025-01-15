@@ -10,7 +10,7 @@ class Solution {
                 num-=n[i];
             } else{
                 i++;
-            }
+            } 
         }
         return str;
     }
