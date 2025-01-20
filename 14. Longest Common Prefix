@@ -10,7 +10,7 @@ public:
                 return ans;
             }
             ans+=first[i];
-        }
+        } 
         return ans;
     }
 };
