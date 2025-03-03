@@ -8,7 +8,7 @@ class Solution {
             if (num>=n[i]){  
                 str=str+s[i];
                 num-=n[i];
-            } else{
+            } else{ 
                 i++;
             } 
         }
