@@ -33,7 +33,7 @@ Welcome to my **LeetCode Problem-Solving Repository**! Here, you'll find efficie
 ## 🚀 How to Use This Repository
 1️⃣ Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/leetcode-problems.git
+   git clone https://github.com/codehub001/leetcode-problems.git
    ```
 2️⃣ Navigate to the desired problem directory.
 3️⃣ Open the `.cpp` file and review the solution.
@@ -48,7 +48,7 @@ Welcome to my **LeetCode Problem-Solving Repository**! Here, you'll find efficie
 📩 Feel free to open an **issue** or reach out for discussions! 😊
 
 🔗 **Connect with me:**  
-💼 [LinkedIn](your-linkedin-https://www.linkedin.com/in/codehub01/)  
+💼 [LinkedIn] www.linkedin.com/in/codehub01/
 
 
 Happy Coding! 🚀🎯
