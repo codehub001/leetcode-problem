@@ -48,7 +48,8 @@ Welcome to my **LeetCode Problem-Solving Repository**! Here, you'll find efficie
 📩 Feel free to open an **issue** or reach out for discussions! 😊
 
 🔗 **Connect with me:**  
-💼 [LinkedIn] www.linkedin.com/in/codehub01/
+💼 [LinkedIn](https://www.linkedin.com/in/codehub01/)
+
 
 
 Happy Coding! 🚀🎯
