@@ -10,6 +10,5 @@ public:
             }      
         }   
         return {}; // No solution for 
-    }       
- 
+    }      
 };  
