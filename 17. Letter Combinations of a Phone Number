@@ -4,7 +4,7 @@ private:
                string mapping[]) {
         if (i >= digit.length()) {
             ans.push_back(output);
-            return;
+            return; 
         }
 
         int num = digit[i] - '0';
