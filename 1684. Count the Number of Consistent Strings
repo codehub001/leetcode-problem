@@ -4,7 +4,7 @@ public:
         int arr[26] = {0};
         for (char c : allowed) {
             arr[c - 'a'] = 1;
-        }  
+        }   
         int count = 0;
         for (string word : words) {
             int flag = 1;
