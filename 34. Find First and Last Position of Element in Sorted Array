@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& nums, int target) {
+    vector<int> searchRange(vector<int>& nums, int target) {   
         vector<int> result = {-1, -1};
         int left = binarySearch(nums, target, true);
         int right = binarySearch(nums, target, false);
