@@ -7,7 +7,7 @@ private:
             return; 
         }
 
-        int num = digit[i] - '0';
+        int num = digit[i] - '0';  
         string value = mapping[num];  
 
         for (int j = 0; j < value.length(); j++) {
