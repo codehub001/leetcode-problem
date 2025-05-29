@@ -6,7 +6,7 @@ class node
   int key;
   int val;
   node* next;
-  node* prev;
+  node* prev;  
   node(int _key,int _val)
   {
     key = _key;
