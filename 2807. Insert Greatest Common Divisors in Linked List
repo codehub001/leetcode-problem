@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* insertGreatestCommonDivisors(ListNode* head) {
+    ListNode* insertGreatestCommonDivisors(ListNode* head) { 
         if (head == nullptr || head->next == nullptr) return head;
 
         ListNode* node1 = head;
