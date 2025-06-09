@@ -13,7 +13,7 @@ public:
         }
         if(n==0 || l.size()==0){
             return NULL;
-        }
+        }  
         sort(l.begin(),l.end());
         ListNode* head = new ListNode(l[0]);
         ListNode* it = head;
