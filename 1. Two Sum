@@ -10,7 +10,7 @@ public:
                 }       
             }            
         }           
-        return {}; // No solution for 
+        return {}; // No solution for  
     }     
 };     
  
