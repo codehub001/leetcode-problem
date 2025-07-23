@@ -1,5 +1,5 @@
  class Solution {
-public:
+public: 
     bool isMatch(string s, string p) {  
         int n = s.length(), m = p.length();
         bool dp[n+1][m+1]; 
